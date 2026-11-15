@@ -47,6 +47,14 @@ Python / FastAPI + Pydantic · React + TypeScript · PostgreSQL (+pgvector, Time
 
 When a **consequential** decision is made — hard to reverse, crosses components, has real alternatives/trade-offs, or changes a prior decision — **write an Architecture Decision Record automatically** in `docs/adr/NNNN-<slug>.md` and link it from `docs/adr/README.md`, without asking. Do not write ADRs for trivial/conventional choices (those stay in `docs/decisions.md`). Keep each ADR short: Status, Context, Decision, Consequences. Mention it in one line; do not paste the full ADR into chat.
 
+## Git workflow (auto-push)
+
+- Remote: `https://github.com/Griffith-0-0/AI-SRE-Project.git`, branch `main`.
+- **Commit and push automatically** when a meaningful unit of work is complete (docs milestone, feature, fix) — do not ask each time.
+- Only push a green tree (tests pass, no secrets). Never force-push or rewrite history.
+- Commit style: `feat:` / `fix:` / `docs:` / `chore:`.
+- Report each push in one line (hash + summary).
+
 ## Session start protocol
 
 1. Read `docs/decisions.md` and `docs/open-questions.md`.
