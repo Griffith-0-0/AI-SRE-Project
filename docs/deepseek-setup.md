@@ -13,7 +13,9 @@
 
 ## The mentor behavior
 
-`AGENTS.md` sets the mentor contract: guide/review by default, implement only when explicitly asked; read `docs/decisions.md` before advising; evaluation-first; open-source tooling + DeepSeek API only. It applies to every session whose working directory is this project. A git repo is recommended so project-root discovery is robust (`git init`).
+`AGENTS.md` sets the mentor contract: guide/review by default, implement only when explicitly asked; read `docs/decisions.md` before advising; evaluation-first; open-source tooling with the approved DeepSeek and OpenAI APIs. It applies to every session whose working directory is this project. A git repo is recommended so project-root discovery is robust (`git init`).
+
+It also routes development tasks through A (user-led deep learning), B (guided implementation), or C (AI-assisted execution), adjusting to the user's skills. All categories retain the explicit implementation request requirement. Phase-level learning priorities are in `docs/roadmap.md`; the existing daily backlog remains the source of tasks.
 
 ## Skills
 

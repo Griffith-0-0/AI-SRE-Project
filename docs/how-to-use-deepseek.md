@@ -10,6 +10,8 @@ It tells me to be a **mentor**: explain and review, and only write code when you
 - You never have to mention it.
 - It's why I guide instead of coding ahead.
 
+For development tasks, the mentor will suggest **A** (you lead to learn deeply), **B** (guided work together), or **C** (delegate routine work). The category can change as your skills grow. It does not authorize edits by itself: ask explicitly in the current turn whenever you want implementation. You can also ask for hints, a review, or a complete explanation at any time. The roadmap summarizes the learning focus for each phase; the daily backlog remains the task queue.
+
 ## 2. Skills — loaded when needed, two ways
 
 Six skills live in `.dsh/skills/`. Each is a short "playbook" I follow for a recurring task.

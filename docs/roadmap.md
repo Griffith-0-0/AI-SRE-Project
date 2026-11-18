@@ -14,6 +14,23 @@
 
 **Rule:** a phase is "done" only when its acceptance criteria pass *and* the whole loop still works end-to-end. No parallel half-built features.
 
+## Learning and AI involvement
+
+Classify the current task using `AGENTS.md`: **A** user-led deep learning, **B** guided implementation, or **C** AI-assisted execution. These are starting points, not fixed labels; adjust for the user's experience and task, and require an explicit request before implementation in every category. Use the existing backlog and acceptance criteria. For each meaningful learning task, agree on a small check of understanding and move on when it passes.
+
+| Phase | Learn deeply / lead | Understand conceptually; delegate mechanics when requested | Example understanding check |
+|---|---|---|---|
+| 0 Foundations | HTTP request flow, service boundaries, debugging and trace correlation | Boilerplate, Compose and telemetry configuration | Follow a request across services and locate a deliberately introduced failure. |
+| 1 Detect | Baselines, recall, false positives, ground truth and repeatability | Detector plumbing and routine calculations | Explain the counts and reproduce a fault; identify a misleading result. |
+| 2 Investigate | Bounded tools, untrusted inputs, evidence, evaluation and cost limits | Framework wiring and typed models | Trace a claim to evidence and explain a measured change against a baseline. |
+| 3 RAG | Retrieval quality, citations and comparative evaluation | Indexing and embedding plumbing | Explain a retrieval failure and compare with no retrieval. |
+| 4 Multi-agent + graph | Coordination trade-offs and meaning of graph results | Routine node wiring and visualization | Compare against the single-agent baseline and explain the added value or lack of it. |
+| 5 Repair | Reproduction tests, patch verification, isolation and human approval | Patch parsing and harness plumbing | Explain the limits of passing tests and show a rejected bad patch. |
+| 6 Benchmark | Hold-out discipline, leakage, variance and interpretation | CI and reporting mechanics | Reproduce a result and explain its sample size and limitations. |
+| 7 Arena + scale | Fair comparisons and the reason for scaling | UI and deployment mechanics | Explain what the comparison measures and reproduce a run. |
+
+These are learning priorities, not additional phase requirements. Keep notes brief in existing docs; recall concepts periodically and look up syntax. Avoid treating a small benchmark or calibration target as evidence of general performance.
+
 ## Timeline (consolidated)
 
 Assumes **part-time ~10–15 h/week with AI mentor assistance**. Full-time (~30–40 h/week) is roughly **2.5× faster**.
