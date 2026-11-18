@@ -31,8 +31,10 @@ At **~1 session/day (5–6 days/week)**: MVP ≈ **2.5–3 months**, full ≈ **
 
 **Sprint goal:** a running, observable 3-service app; one reproducible fault.
 
-- [x] **0.1** Init monorepo. *done-when:* `git init`; `/platform`, `/apps/demo`, `/chaos`, `/docs` exist; one empty FastAPI app boots.
-- [x] **0.2** Gateway service skeleton. *done-when:* `/health` returns 200.
+> **2026-11-18 — reset:** `platform/` and `apps/demo/` were deleted to restart the scaffold from scratch. 0.1 and 0.2 are unchecked again; git history is intact, and `apps/` and `chaos/` remain.
+
+- [ ] **0.1** Init monorepo. *done-when:* `git init`; `/platform`, `/apps/demo`, `/chaos`, `/docs` exist; one empty FastAPI app boots.
+- [ ] **0.2** Gateway service skeleton. *done-when:* `/health` returns 200.
 - [ ] **0.3** Orders + inventory service skeletons. *done-when:* both `/health` return 200.
 - [ ] **0.4** PostgreSQL + payment stub in Compose. *done-when:* services connect to Postgres; stub returns a fake charge.
 - [ ] **0.5** End-to-end happy path. *done-when:* a scripted order flows gateway → orders → inventory → payment stub.

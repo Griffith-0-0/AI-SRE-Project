@@ -8,6 +8,9 @@ build plan live in [`docs/`](docs/): architecture in
 [`docs/decisions.md`](docs/decisions.md), and the session backlog in
 [`docs/daily-tasks.md`](docs/daily-tasks.md).
 
+> **Scaffolding reset (2026-11-18):** `platform/` and `apps/demo/` are being rebuilt
+> from scratch. The quickstart below works again once Phase 0.1–0.2 are green.
+
 ## Layout
 
 | Path | Contents |
